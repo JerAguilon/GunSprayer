@@ -1,0 +1,6 @@
+Original: -32 8 .7191
+Target: 450 8 .7191
+Middle: 209 8 .7191
+
+
+360 pixels for 10th bullet*
