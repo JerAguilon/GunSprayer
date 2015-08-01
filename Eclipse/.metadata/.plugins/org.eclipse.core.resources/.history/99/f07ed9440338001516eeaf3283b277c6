@@ -1,0 +1,11 @@
+var canvas = document.getElementByID('canvas');
+var context = context.getContext('2D');
+
+canvas.width=window.innerWidth;
+canvas.height=window.innerWidth;
+
+var putPoint = function(e){
+	context.arc();
+}
+
+canvas.addEventListener('mousedown',putPoint);

@@ -1,0 +1,5 @@
+@CHARSET "utf-8";
+img{
+	border: 5px solid color:black;
+	border-radius:3px;	
+}

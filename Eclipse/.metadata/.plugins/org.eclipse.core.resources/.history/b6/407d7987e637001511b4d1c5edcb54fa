@@ -1,0 +1,30 @@
+context = document.getElementById('canvas').getContext("2d");
+
+
+function resize_canvas(){
+	canvas = document.getElementByID("canvas");
+	
+	if(canvas.width < window.innerwidth){
+		canvas.width = window.innerwidth;
+	}
+	
+	if(canvas.height < window.innerHeight){
+		canvas.height = window.innerHeight;
+	}
+	
+}
+
+$('#canvas').mousedown(function(e){
+	  var mouseX = e.pageX - this.offsetLeft;
+	  var mouseY = e.pageY - this.offsetTop;
+			
+	  paint = true;
+	  addClick(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
+	  redraw();
+	});
+$('#canvas').mousemove(function(e){
+	  if(paint){
+	    addClick(e.pageX - this.offsetLeft, e.pageY - this.offsetTop, true);
+	    redraw();
+	  }
+	});

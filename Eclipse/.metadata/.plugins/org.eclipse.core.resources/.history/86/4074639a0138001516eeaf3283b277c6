@@ -1,0 +1,6 @@
+function getHeight(){
+	return screen.height;
+}
+function getWidth(){
+	return screen.width;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	
+	<title>Spray and pray</title>
+	<link rel="stylesheet" href="css/styles.css">
+	
+</head>
+<body>
+	<div>
+		<img src = "images/ak47.png" class = "guns"/>
+		<img src = "images/m4a1-s.png" class = "guns"/>
+	</div>
+	
+	<div>
+		<canvas id="canvas">Your browser doesn't support HTML5.</canvas>
+	</div>
+	<script>
+	var canvas = document.getElementByID('canvas');
+	var context = canvas.getContext('2D');
+
+	canvas.width=window.innerWidth;
+	canvas.height=window.innerWidth;
+
+	var putPoint = function(e){
+		context.beginPath();
+		context.arc(e.offsetX,e.offsetY,10,0, Math.PI*2);
+		context.fill();
+	}
+
+	canvas.addEventListener('mousedown',putPoint);
+	</script>
+	<noscript>test</noscript>
+	
+</body>
+</html>

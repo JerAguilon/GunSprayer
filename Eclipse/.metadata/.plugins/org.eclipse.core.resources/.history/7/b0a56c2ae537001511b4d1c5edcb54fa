@@ -1,0 +1,8 @@
+context = document.getElementById('canvas').getContext("2d");
+
+
+function resize_canvas(){
+	canvas = document.getElementByID("canvas");
+	
+	if(canvas)
+}
