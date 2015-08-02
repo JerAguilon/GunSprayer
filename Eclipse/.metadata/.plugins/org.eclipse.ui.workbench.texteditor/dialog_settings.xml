@@ -2,12 +2,16 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="fireBullet" key="selection"/>
+		<item value="gun" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="gun"/>
+			<item value="var gun"/>
+			<item value="new ak"/>
+			<item value="backgroundcol"/>
 			<item value="firebullet"/>
 			<item value="firing"/>
 		</list>

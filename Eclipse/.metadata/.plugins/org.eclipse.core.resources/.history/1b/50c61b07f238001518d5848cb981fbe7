@@ -8,8 +8,8 @@
 
 <body>
 	<div>
-		<a href ="#" onMouseDown="selectGun('ak47')"> <img src = "images/ak47.png" class = "guns" id = "ak47"/> </a>
-		<img src = "images/m4a1-s.png" class = "guns" id = "m4a1"/>
+		<img src = "images/ak47.png" class = "guns"/>
+		<img src = "images/m4a1-s.png" class = "guns"/>
 	</div>
 	
 	<div>
