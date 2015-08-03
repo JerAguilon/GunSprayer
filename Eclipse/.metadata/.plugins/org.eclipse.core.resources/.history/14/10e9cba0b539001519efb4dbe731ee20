@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<title>Spray and pray</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	
+	<a href ="#" onMouseDown="selectGun('ak47')"> <img src = "images/ak47.png" class = "guns" id = "ak47"/> </a>
+	<a href ="#" onMouseDown="selectGun('m4a1')"><img src = "images/m4a1-s.png" class = "guns" id = "m4a1"/></a>
+	
+	<form>
+		Location: <br>
+ 		<select id = "mapList" onchange = "make_base()">
+ 			<option value = "Spray Master">Spray Master</option>
+ 			<option value = "D2 Long Corner">D2 Long Corner</option>
+ 		</select>
+ 		<br>
+ 		Sensitivity: 
+ 		<br> 
+		<input type = "text" name = "sensitivty" id = "sensitivity" value = "1.2"/>
+		<br><br>
+		<button type ='button' onclick = "clearDecals()">Clear decals</button>
+		<button type = 'button' onclick = "toggleHelp()">Toggle help</button>
+		<br><br>
+		<button type = 'button' onclick = "ToggleAR()" id = 'AR'>Aspect Ratio 16:9</button>
+	</form>
+	
+	<div>
+		<canvas id="canvas">Your browser doesn't support HTML5.</canvas>
+	</div>
+	
+
+	
+	<script type=text/javascript src ="js/main.js"></script>
+	<noscript>Javascript not supported</noscript>
+	
+	
+	<div class = "nocursor"></div>
+	
+	
+</body>
+</html>

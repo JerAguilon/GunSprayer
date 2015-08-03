@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	
+}.guns { 
+   border:1px solid #000000;
+   border-radius:3px;
+   width: 5%;
+   height:auto;
+   position:relative;
+   top:10px;
+   left:10px;
+   z-index:2;
+   background-color: #ffffff;
+} canvas{
+	border:1px solid #000000;
+	display: block;
+	position:absolute;
+	top:0px;
+	left:0px
+	z-index:1;
+} form {
+	position:relative;
+	top:20px;
+	left:10px;
+	z-index:2;
+	color: #ffffff;
+} form * {
+	margin:1px;
+} #ak47{
+	background-color: gray;
+} form div{
+	opacity:.9;	
+	color:#000000;
+	background-color:gray;
+	height:200px;
+	width:200px;
+	border-radius: 10px;
+	position:relative;
+	top:-220px;
+	left:150px;
+}
