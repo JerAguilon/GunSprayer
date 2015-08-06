@@ -111,7 +111,7 @@ function AK(){
 
 	for(i = 0;i<30;i++){
 		for(j = 0;j<2;j++){
-			this.pullDown[i][j] = 330.7088/71*this.pullDown[i][j] 
+			this.pullDown[i][j] = 295/71*this.pullDown[i][j] 
 		}
 	}
 	this.getPullDown = getPullDown;
