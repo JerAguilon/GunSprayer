@@ -1,5 +1,5 @@
 body{
-	margin: 0;
+	margin: 0px;
 	
 }.guns { 
    border:1px solid #000000;
@@ -12,15 +12,16 @@ body{
    z-index:2;
    background-color: #ffffff;
 } canvas{
-	border:1px solid #000000;
 	display: block;
 	position:absolute;
 	top:0px;
 	left:0px
 	z-index:1;
+	padding: 0px 0px 0px 0px;
+	margin: 0px
 } form {
 	position:relative;
-	top:20px;
+	top:40px;
 	left:10px;
 	z-index:2;
 	color: #ffffff;
@@ -39,5 +40,10 @@ body{
 	position:relative;
 	top:-240px;
 	left:700px;
+	z-index:2;
+} #hider{
+	position:relative;
+	top:-175px;
+	left:10px;
 	z-index:2;
 }
