@@ -147,7 +147,7 @@ function adjustPattern(pattern, name){
 			} else if (name == 'm4a1'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .14
+						pattern[i][j] = pattern[i][j] * .157
 					}
 				}
 			} else if (name == 'galil'){
@@ -180,25 +180,25 @@ function adjustPattern(pattern, name){
 			} else if (name == 'm4a1'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .145;
+						pattern[i][j] = pattern[i][j] * 1.45/1.5 * .157;
 					}
 				}
 			} else if (name == 'm4a4'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .145;
+						pattern[i][j] = pattern[i][j] * 1.45/1.5 * .21;
 					}
 				}
 			} else if (name == 'galil'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .145;
+						pattern[i][j] = pattern[i][j] * 1.45/1.5* .22;
 					}
 				}
 			} else if (name == 'famas'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .145;
+						pattern[i][j] = pattern[i][j] * 1.45/1.5 * .24;
 					}
 				}
 			}
@@ -213,25 +213,25 @@ function adjustPattern(pattern, name){
 			} else if (name == 'm4a1'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .145;
+						pattern[i][j] = pattern[i][j] * 1.5/1.45 * .157;
 					}
 				}
 			} else if (name == 'm4a4'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .145;
+						pattern[i][j] = pattern[i][j] * 1.45/1.5 * .21;
 					}
 				}
 			} else if (name == 'galil'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .145;
+						pattern[i][j] = pattern[i][j] * 1.45/1.5* .22;
 					}
 				}
 			} else if (name == 'famas'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .145;
+						pattern[i][j] = pattern[i][j] * 1.45/1.5 * .24;
 					}
 				}
 			}
@@ -246,25 +246,25 @@ function adjustPattern(pattern, name){
 			} else if (name == 'm4a1'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.6/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.6/1.45 * .157;
 					}
 				}
 			} else if (name == 'm4a4'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.6/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.6/1.45 * .21;
 					}
 				}
 			} else if (name == 'galil'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.6/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.6/1.45 * .22;
 					}
 				}
 			} else if (name == 'famas'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.6/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.6/1.45 * .24;
 					}
 				}
 			}
@@ -279,25 +279,25 @@ function adjustPattern(pattern, name){
 			} else if (name == 'm4a1'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.35/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.35/1.45 * .157;
 					}
 				}
 			} else if (name == 'm4a4'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.35/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.35/1.45 * .21;
 					}
 				}
 			} else if (name == 'galil'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.35/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.35/1.45 * .22;
 					}
 				}
 			} else if (name == 'famas'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.35/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.35/1.45 * .24;
 					}
 				}
 			}
@@ -312,25 +312,25 @@ function adjustPattern(pattern, name){
 			} else if (name == 'm4a1'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.7/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.7/1.45 * .157;
 					}
 				}
 			} else if (name == 'galil'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.7/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.7/1.45 * .22;
 					}
 				}
 			}else if (name == 'm4a4'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.7/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.7/1.45 * .21;
 					}
 				}
 			}else if (name == 'famas'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * 1.7/1.45 * .14;
+						pattern[i][j] = pattern[i][j] * 1.7/1.45 * .24;
 					}
 				}
 			}
@@ -345,25 +345,25 @@ function adjustPattern(pattern, name){
 			} else if (name == 'm4a1'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .14;
+						pattern[i][j] = pattern[i][j] * .147;
 					}
 				}
 			} else if (name == 'galil'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .14;
+						pattern[i][j] = pattern[i][j] * .22;
 					}
 				}
 			} else if (name == 'm4a4'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .14;
+						pattern[i][j] = pattern[i][j] * .21;
 					}
 				}
 			}else if (name == 'famas'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .14;
+						pattern[i][j] = pattern[i][j] * .24;
 					}
 				}
 			}
@@ -384,19 +384,19 @@ function adjustPattern(pattern, name){
 			}else if (name == 'galil'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .14;
+						pattern[i][j] = pattern[i][j] * .22;
 					}
 				}
 			}else if (name == 'm4a4'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .14;
+						pattern[i][j] = pattern[i][j] * .21;
 					}
 				}
 			}else if (name == 'famas'){
 				for(i = 0; i < pattern.length;i++){
 					for(j = 0; j<pattern[i].length;j++){
-						pattern[i][j] = pattern[i][j] * .14;
+						pattern[i][j] = pattern[i][j] * .24;
 					}
 				}
 			}
