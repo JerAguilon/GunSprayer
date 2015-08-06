@@ -29,18 +29,11 @@ body{
 	margin:1px;
 } #ak47{
 	background-color: gray;
-} #instructions{
-	padding:1px 4px 1px 4px;
-	opacity:.9;	
-	color:#000000;
-	background-color:gray;
-	height:230px;
-	width:200px;
-	border-radius: 10px;
-	position:relative;
-	top:-240px;
-	left:700px;
+} #message{
+	position:absolute;
+	right:10px;	
 	z-index:2;
+	color: white;
 } #hider{
 	position:relative;
 	top:-175px;
