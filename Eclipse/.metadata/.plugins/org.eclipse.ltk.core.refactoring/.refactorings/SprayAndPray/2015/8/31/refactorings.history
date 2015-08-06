@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Move &apos;sprayer.js&apos; to &apos;SprayAndPray&apos;" description="Move &apos;sprayer.js&apos; to &apos;SprayAndPray&apos;" destination="/SprayAndPray" element1="js/sprayer.js" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1438402340554" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;main.js&apos; to &apos;js&apos;" description="Move &apos;main.js&apos; to &apos;js&apos;" destination="js" element1="main.js" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1438402800035" updateReferences="true"/>
-</session>
