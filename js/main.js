@@ -643,10 +643,8 @@ var fireBullet = function(x,y){
 	var pulldownY = originY - windowsMultiplier[windowsSens-1] * (1.2/sensitivity) *pullDown[i][0]
 	
 	if(boolInverted){
-		pulldownX = originX + windowsMultiplier[windowsSens-1] * (1.2/sensitivity) * pullDown[i][1]
 		pulldownY = originY + windowsMultiplier[windowsSens-1] * (1.2/sensitivity) *pullDown[i][0]
 		
-		recoilX =  -(sensitivity/(1.2 *pullDown[i][1]/pattern[i][1])) * (x-originX) + originX + (screen.width/1920) * pattern[i][1]; 
 		recoilY =  -(sensitivity/(1.2 *pullDown[i][0]/pattern[i][0])) * (y-originY) +originY+  (screen.height/1080)* pattern[i][0];
 		
 	}
