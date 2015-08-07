@@ -434,7 +434,7 @@ function make_base(AR){
 	var options = document.getElementById("mapList").options;
 	var index = document.getElementById("mapList").selectedIndex;
 	switch(options[index].text){
-		case 'Spray Master':
+		case 'Recoil Master':
 			base_image.src = 'images/' + AR + '/spraymaster.jpg';
 			base_image.onload = function(){
 				context.drawImage(base_image, 0,0,screen.width,screen.height);
