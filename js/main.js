@@ -136,7 +136,7 @@ function adjustPattern(pattern, name){
 	var index = document.getElementById("mapList").selectedIndex;
 	
 	switch(options[index].text){
-		case 'Spray Master':
+		case 'Recoil Master':
 			
 			if(name == 'ak47'){
 				for(i = 0; i < pattern.length;i++){
